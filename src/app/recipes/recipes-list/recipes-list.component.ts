@@ -13,15 +13,9 @@ export class RecipesListComponent implements OnInit {
       'Something Test',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwNY4bGXQkWgEz2KN_BDNCXGTqLWs_RlWm6WXy4nVe&s'
     ),
-    new Recipe(
-      'A Test',
-      'Something Test',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwNY4bGXQkWgEz2KN_BDNCXGTqLWs_RlWm6WXy4nVe&s'
-    ),
   ];
 
   constructor() {}
 
   ngOnInit(): void {}
 }
-
